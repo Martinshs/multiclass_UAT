@@ -13,7 +13,7 @@ In particular, the first observation in [1](https://arxiv.org/abs/2407.07556) is
 The code in this repository show how the hyperplanes (MLP parameters) interact simultaneously with the input data to map them to their respective labels (targets).
 
 <p align="center">
-    <img src="https://github.com/Martinshs/multiclass_UAT/edit/main/gifs/example_1.gif" alt="" /></a>
+    <img src="https://github.com/Martinshs/multiclass_UAT/edit/main/example_1.gif" alt="" /></a>
 </p>
 
 
