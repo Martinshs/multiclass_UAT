@@ -28,9 +28,7 @@ The code above demonstrates how the hyperplanes (MLP parameters) interact simult
   * make_gif : Function that creates a gif.
               
   
-- `solvers.py`: Contain the solvers. Namely,
-  * solver_op :  Obstacle problem solver  ([inspired by DyCon-blog](https://deustotech.github.io/DyCon-Blog/tutorial/wp03/P0004))
-  * sol_one_realization :  Solve one realization of the random minimizing movement
-  * solver_avg_mb_op : Compute the average of a given number of realizations of the random minimizing movement
-- `mini_batch_obstacle_problem.ipynb`: Jupyter Notebooks with examples demonstrating the code.
+- `auto_training.py`: This file contain the function `auto_train` which is used to create the paramters of the NN. This function need the data and labels of the problem.
+- `feed_forward.py`:  This file contain the function `feedfoward_NN`. Given the input data and the parameter `feedfoward_NN` give the output of the MLP.
+- `auto_binary_classification.ipynb`: Jupyter Notebooks with examples demonstrating the code.
 
